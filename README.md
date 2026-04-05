@@ -1,55 +1,58 @@
-# EnredaArte - E-commerce de Joyería Artesanal
+🧶 EnredaArte - Hito 3
+Plataforma de e-commerce para joyería artesanal en alambrismo, enfocada en la gestión dinámica de inventario y autenticación de usuarios.
 
-**Hito 2:** Estado Global con Context API y Panel de Administración
-Este proyecto es una plataforma de comercio electrónico desarrollada con React, diseñada para gestionar la venta de joyas hechas a mano. En este segundo hito, nos enfocamos en la implementación de un estado global para manejar el carrito, los favoritos y un panel administrativo funcional.
+Tuve problemas para hacer deploy. Pero seguire investigando para poder cumplir el siguiente hito.
 
-**Funcionalidades Implementadas**
-### 1. Gestión de Estado Global (Context API)
-Se implementó ProductContext para centralizar la información de la tienda, permitiendo que cualquier componente acceda a:
+✨ Funcionalidades Principales
+Gestión CRUD: Panel de administración para crear, leer y editar productos (precio, stock, fotos y categorías).
 
-Catálogo de productos: Lista dinámica de joyas con sus detalles.
+Autenticación: Registro e inicio de sesión con JWT y personalización de perfil.
 
-Carrito de compras: Funciones para añadir, actualizar cantidades y calcular totales.
+Navegación Inteligente: Home dinámico con "Últimos Diseños" y filtros vinculados a la Tienda.
 
-Sistema de Favoritos: Posibilidad de marcar joyas deseadas desde cualquier vista.
+Carrito de Compras: Flujo completo desde la selección hasta el Checkout con SweetAlert2.
 
-### 2. Panel de Administración (Admin Panel) 🛠️
-Una sección exclusiva para la gestión del negocio que incluye:
+🛠️ Stack Tecnológico
+Frontend: React.js, Context API, React Router.
 
-Inventario: Visualización de stock y precios en tiempo real.
+Backend: Node.js, Express.
 
-Agregar Productos: Formulario integrado para dar de alta nuevas creaciones.
+Base de Datos: PostgreSQL.
 
-Gestión de Usuarios: Visualización de la comunidad registrada.
+Testing: Jest y Supertest para validación de rutas y modelos.
 
-Reporte de Ventas: Resumen de ingresos y pedidos realizados.
+🚀 Instalación
+Clonar: git clone https://github.com/LauraGonpar/enreda_arte.git
 
-### 3. Experiencia de Usuario (UX)
-Navegación Intuitiva: Uso de react-router-dom para transiciones fluidas.
+Backend: Entrar a /server, ejecutar npm install y configurar .env. Iniciar con npm run dev.
 
-Feedback Visual: Integración de SweetAlert2 para confirmar acciones (agregar al carrito, guardar producto, etc.).
+Frontend: Entrar a /client, ejecutar npm install e iniciar con npm run dev.
 
-Diseño Responsivo: Interfaz adaptada para escritorio y dispositivos móviles usando Bootstrap.
+🧪 Testing
+Ejecuta las pruebas automatizadas de integración:
 
-## Tecnologías Utilizadas
-React.js: Biblioteca principal para la interfaz.
+Bash
+npm test
 
-Context API: Manejo del estado global sin prop-drilling.
+Crear bases de datos en base al archivo script.sql
 
-Bootstrap 5: Framework de estilos para un diseño limpio y rápido.
+Estos son algunos link de imagenes para poder agregar los productos desde el perfil admin
 
-SweetAlert2: Alertas interactivas y estéticas.
-
-React Router Dom: Manejo de rutas y navegación.
-
-## Instalación y Uso
-
-Clonar el repositorio:
-git clone https://github.com/tu-usuario/enredaarte-hito2.git
-
-Instalar dependencias:
-npm install
-
-Ejecutar el proyecto:
-npm run dev
-# enreda_arte
+https://i.ibb.co/qMKyfrYB/Alma.png
+https://i.ibb.co/N6cgsWnj/arodoble.png
+https://i.ibb.co/PZv8ncJd/aros-model.png
+https://i.ibb.co/mVtqdvy9/Bola-fuego.png
+https://i.ibb.co/0pBmzJNg/Carola.png
+https://i.ibb.co/r2VrjRwp/Dise-o-sin-t-tulo.png
+https://i.ibb.co/CKn83v10/Duales.png
+https://i.ibb.co/0jCRS1TH/Eslabones.png
+https://i.ibb.co/ks4CK5cX/espigas.png
+https://i.ibb.co/bRL75FNx/Gala.png
+https://i.ibb.co/VpY6DkNb/imagen-prin.png
+https://i.ibb.co/P7G4LJ9/Logo-EA.png
+https://i.ibb.co/B2Rxg5Vw/logo-enredaarte.png
+https://i.ibb.co/6c8FLbwY/margarita-azul.png
+https://i.ibb.co/vv3k8HWR/Margarita-Verde-A.png
+https://i.ibb.co/mVXSJLgB/Pulsera-Azul.png
+https://i.ibb.co/Vc8fKWS9/Pulsera-model.png
+https://i.ibb.co/xKYkJXBQ/Whats-App-Image-2026-03-08-at-6-51-43-PM-1.png
